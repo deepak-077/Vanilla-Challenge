@@ -4,8 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        button{
+            border: 2px solid black;
+            /* height: 100 px; */
+            width: 120px;
+            padding: 15px;
+            margin:20px
+        }
+    </style>
 </head>
 <body>
+    <button class ="but" id="01">A</button>
+    <button class ="but" id="02">S</button>
+    <button class ="but" id="03">D</button>
+    <button class ="but" id="04">F</button>
+    <button class ="but" id="05">G</button>
+    <button class ="but" id="06">H</button>
+    <button class ="but" id="07">J</button>
+    <button class ="but" id="08">K</button>
+    <button class ="but" id="09">L</button>
+    
     
 </body>
+<script>
+    let clicked=document.querySelectorAll('button');
+    clicked.addEventListener("click",function(e){
+        console.log("button clicked")
+    })
+
+</script>
+
 </html>
