@@ -15,26 +15,38 @@
     </style>
 </head>
 <body>
-    <button class ="but" id="01">A</button>
+    <button class ="but" id="stop">A</button>
     <button class ="but" id="02">S</button>
     <button class ="but" id="03">D</button>
-    <button class ="but" id="04">F</button>
+    <button class ="buto" id="04">F</button>
     <button class ="but" id="05">G</button>
     <button class ="but" id="06">H</button>
     <button class ="but" id="07">J</button>
     <button class ="but" id="08">K</button>
     <button class ="but" id="09">L</button>
+
+
+
+    <script>
+    
+    
+        let pressed =function (){
+            console.log ("clicked");
+            TransitionEvent
+        }
+        
+       const keys= document.querySelectorAll(".but");
+
+       keys.forEach(key => key.addEventListener("click", pressed) {
+        console.log("clicked");
+        
+       });
+
+        
+    </script>
     
     
 </body>
-<script>
-    document.querySelectorAll('but').addEventListener("click",pressed)
-    
-    
-    function pressed(){
-        console.log ("clicked");
-    }
-    
-</script>
+
 
 </html>
