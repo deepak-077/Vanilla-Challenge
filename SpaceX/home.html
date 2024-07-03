@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="spacexicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>SpaceX</title>
+    <style>
+        li{
+            padding: 09px;
+            margin: 8px;
+        }
+        li{
+            position: relative;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        li:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: white;
+            visibility: hidden;
+            transition: all 0.3s ease-in-out;
+        }
+
+        li:hover::after {
+            visibility: visible;
+            width: 100%;
+        }
+        .first{
+            background-image: url(starlink1_vertical_18.webp);
+            background-size: cover;
+            background-position: center;
+            
+        }
+        
+        .sec{
+            background-image: url(nrol-186.jfif);
+            background-size: cover;
+            
+        }
+        .second{
+            background-image: url(starlink\ mission.jpg);
+            background-size: cover;
+            
+
+        }
+        .third{
+            background-image: url(falconheavymerlins1.webp);
+            background-size: cover;
+        }
+        .fourth{
+            background-image: url(suit.jpg);
+            background-size: cover;
+        }
+        .fifth{
+            background-image: url(spacex.webp);
+            background-size: cover;
+        }
+        
+    </style>
+    </head>
+    <body >
+        <div class="first w-screen h-screen mt-0 flex flex-col justify-center">
+            <nav class="relative top-0 w-full  z-10">
+                <ul class="flex justify-center text-white ">
+                    <img class="w-1/4 border-s-black" src="SpaceX_Logo_Black.png" alt="">
+
+                    <li><a href="#falcon9">FALCON 9</a></li>
+                    <li><a href="#falconheavy">FALCON HEAVY</a></li>
+                    <li><a href="#dragon">DRAGON</a></li>
+                    <li><a href="#starship">STARSHIP</a></li>
+                    <li><a href="#humanspaceflight">HUMAN SPACEFLIGHT</a></li>
+                    <li><a href="#rideshare">RIDESHARE</a></li>
+                    <li><a href="#starshield">STARSHIELD</a></li>
+                    <li><a href="#starlink">STARLINK</a></li>
+                    
+                </ul>
+            </nav>
+            <div class="content mt-96">
+                <h1 class="text-white text-xl m-2 mx-20 "> UPCOMING LAUNCH</h1>
+                <H1 class="text-white font-bold text-4xl mx-20">STARLINK MISSION</H1>
+                <button class="text-white border-2 mt-8 mx-20 px-5 py-4 w-40 "> WATCH </button>
+
+            </div>
+        
+            <span class="material-symbols-outlined text-6xl text-white flex justify-center mt-auto">
+                keyboard_arrow_down
+            </span>
+    
+        </div>
+
+        <div class="sec w-screen h-screen mt-0 flex flex-col justify-center">
+            <div class="content mt-96 ">
+                <h1 class="text-white text-xl m-2 mx-20 "> RECENT LAUNCH</h1>
+                <H1 class="text-white font-bold text-4xl mx-20">GOES U MISSION</H1>
+                <button class="text-white border-2 mt-8 mx-20 px-5 py-4 w-40"> REWATCH </button>
+
+            </div>
+        
+            <span class="material-symbols-outlined text-6xl text-white flex justify-center mt-auto">
+                keyboard_arrow_down
+            </span>
+        </div>
+
+        <div class="second w-screen h-screen mt-0 flex flex-col justify-center">
+
+            <div class="content mt-96 ">
+                <h1 class="text-white text-xl m-2 mx-20 "> RECENT LAUNCH</h1>
+                <H1 class="text-white font-bold text-4xl mx-20">NROL-186 MISSION</H1>
+                <button class="text-white border-2 mt-8 mx-20 px-5 py-4 w-40"> REWATCH </button>
+
+            </div>
+        
+            <span class="material-symbols-outlined text-6xl text-white flex justify-center mt-auto">
+                keyboard_arrow_down
+            </span>
+    
+        </div>
+
+        <div class="third w-screen h-screen mt-0 flex flex-col justify-center">
+            <div class="content mt-96 ">
+                <h1 class="text-white text-xl m-2 mx-20 "> RECENT LAUNCH</h1>
+                <H1 class="text-white font-bold text-4xl mx-20">GOES U MISSION</H1>
+                <button class="text-white border-2 mt-8 mx-20 px-5 py-4 w-40"> REWATCH </button>
+
+            </div>
+        
+            <span class="material-symbols-outlined text-6xl text-white flex justify-center mt-auto">
+                keyboard_arrow_down
+            </span>
+        </div>
+
+        <div class="fourth w-screen h-screen mt-0 flex flex-col justify-center">
+            <div class="content mt-96 ">
+                
+                <H1 class="text-white font-bold text-4xl mx-20 w-1/3">ADVANCING HUMAN SPACEFLIGTH</H1>
+                <button class="text-white border-2 mt-8 mx-20 px-5 py-4 w-40"> LEARN MORE </button>
+
+            </div>
+        
+            <span class="material-symbols-outlined text-6xl text-white flex justify-center mt-auto">
+                keyboard_arrow_down
+            </span>
+        </div>
+        <div class="fifth w-screen h-screen mt-0 flex flex-col justify-center">
+            <div class="content mt-96 ">
+                
+                <H1 class="text-white font-bold text-4xl mx-20 w-1/3">TO MAKE LIFE MULTIPLANETARY</H1>
+                <button class="text-white border-2 mt-8 mx-20 px-5 py-4 w-40"> LEARN MORE </button>
+
+            </div>
+        
+            <span class="material-symbols-outlined text-6xl text-white flex justify-center mt-auto">
+                keyboard_arrow_down
+            </span>
+        </div>
+
+        
+    
+</body>
+</html>
